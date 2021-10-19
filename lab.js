@@ -49,6 +49,14 @@ console.log(dog["color"]);
 */
 
 //Code here
+let favoriteThings = {
+  band: 'ajr',
+  food: 'calzone',
+  person: 'mom',
+  book: 'percy jackson',
+  movie: 'lego movie',
+  holiday: 'christmas'
+};
 
 
 /*
@@ -56,7 +64,8 @@ console.log(dog["color"]);
 */
 
 //Code here
-
+favoriteThings.car = 'anything that runs';
+favoriteThings["show"] = "phineas and ferb"; 
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -64,7 +73,8 @@ console.log(dog["color"]);
 */
 
 //Code here
-
+favoriteThings.food = "Chicken Nuggets";
+favoriteThings.book = 'Harry Potter';
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -82,7 +92,8 @@ var carDetails = {
 */
 
 //Code Here
-
+let {color} = carDetails;
+let {model, year, make} = car;
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
